@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 import "./style.css"
+import logo from "../../assets/mylogo.png"
 const Navbar = () => {
   const [open, setopen] = useState(false);
 
@@ -19,8 +20,7 @@ const Navbar = () => {
         <div className="Navbar_flex">
           <div className="logo">
             <NavLink to="/" onClick={reload}>
-              {/* <img src={logo} alt="" /> */}
-              <h1>Social casino</h1>
+              <img src={logo} alt="" />
             </NavLink>
           </div>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
             <ul id="navlink">
               <NavLink to="/">
                 <a href="/" className="link">
-                  Home
+                  Social Casino
                 </a>
               </NavLink>
               <Link
@@ -39,7 +39,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
               >
-                <a className="link">Why Us</a>
+                <a className="link">How to Buy</a>
               </Link>
               <Link
                 to="Get_started"
@@ -50,18 +50,30 @@ const Navbar = () => {
                 duration={500}
               >
                 <a href="/" className="link">
-                  Contact Us
+                  Roadmap
+                </a>
+              </Link>
+              <Link
+                to="Tokenomics"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <a href="/" className="link">
+                Tokenomics
                 </a>
               </Link>
               {/* <NavLink to='/'><a  className='link'>CONTACT</a></NavLink>  */}
             </ul>
-            <div className="nav_btn">
+            {/* <div className="nav_btn">
               <button className="login">Login</button>
               <button className="sign">Sign Up</button>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="hamburger">
+        <div className="hambuger">
           <label className={`hamburger ${open && `open`}`}>
             <input type="checkbox" onClick={togglehambuger} />
             <svg viewBox="0 0 32 32">
