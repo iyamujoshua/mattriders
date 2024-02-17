@@ -1,3 +1,6 @@
+.Big-container{
+    margin-bottom: 150px;
+}
 .verify-parent{
 display: flex;
 justify-content: center;
@@ -22,4 +25,15 @@ margin-bottom: 20px;
 .verify-content p{
     font-size: 16px;
     margin-bottom: 50px;
+}
+
+
+.Buy{
+    background:  linear-gradient(to right, #F28498, #C03D69);;
+    padding: 10px 20px;
+    border: 2px solid #F28498;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    border-radius: 8px;
 }

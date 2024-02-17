@@ -6,6 +6,7 @@ import "./style.css"
 export default function Verified() {
   return (
     <div>
+      <div className="Big-container">
         <div className='verify-parent'>
             <div className='verify-logo'>
                 <img src={img2} alt=""  height={151.22}  width={153.6}/>
@@ -22,7 +23,7 @@ KYC passed by solidproof. Learn more in the whitepaper</p>
               Whitepaper
             </a>
         </div>
-      
+        </div>
     </div>
   )
 }
