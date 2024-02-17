@@ -10,3 +10,14 @@
 .tokenomics-contents p{
 margin-bottom: 60px;
 }
+
+@media screen  and (max-width:820px){
+    .tokenomics-contents h1{
+       font-size:20px;
+        }
+
+        .tokenomics-contents p{
+            font-size: 14px;
+            padding: 0px 10px 0px 10px;
+            }
+}

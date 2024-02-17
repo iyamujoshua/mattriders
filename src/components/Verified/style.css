@@ -11,6 +11,10 @@ margin-bottom: 30px;
     display: flex;
     gap: 20px;
 }
+.verify-logo img{
+ height: 151.22px;
+ width: 153.6px;
+}
 
 .verify-content{
 color: white;
@@ -36,4 +40,22 @@ margin-bottom: 20px;
     font-weight: 500;
     color: black;
     border-radius: 8px;
+}
+
+@media screen  and (max-width:820px){
+    .verify-logo img{
+        height: 90px;
+        width: 90px;
+       }
+       .verify-content h1{
+        font-size: 20px;
+        font-weight: bold;
+        /* margin-bottom: 20px; */
+        }
+
+        .verify-content p{
+            font-size: 14px;
+            margin-bottom: 50px;
+        }
+        
 }

@@ -5,6 +5,8 @@ import Equity from '../Equity'
 import Verified from '../Verified'
 import Tokenomics from "../Tokenomics"
 import Ect from '../Ect'
+import Progressivebar from '../Progressivebar'
+import Footer from '../Footer'
 const Body = () => {
   return (
     <div>
@@ -14,6 +16,8 @@ const Body = () => {
         <Verified></Verified>
         <Tokenomics/>
         <Ect/>
+        <Progressivebar/>
+        <Footer></Footer>
     </div>
   )
 }

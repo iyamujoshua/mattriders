@@ -9,8 +9,8 @@ export default function Verified() {
       <div className="Big-container">
         <div className='verify-parent'>
             <div className='verify-logo'>
-                <img src={img2} alt=""  height={151.22}  width={153.6}/>
-                <img src={img3} alt="" height={151.22}  width={153.6}/>
+                <img src={img2} alt=""/>
+                <img src={img3} alt=""/>
             </div>
         </div>
 
