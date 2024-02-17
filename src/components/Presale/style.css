@@ -1,0 +1,19 @@
+.presale_header{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.presale_header h1{
+padding-bottom: 20px;
+font-size: 40px;
+}
+
+.presale_header p{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.presale_header h2{
+    font-size:24px;
+}

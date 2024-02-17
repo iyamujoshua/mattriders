@@ -1,0 +1,25 @@
+.verify-parent{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+.verify-logo{
+    display: flex;
+    gap: 20px;
+}
+
+.verify-content{
+color: white;
+text-align: center;
+
+}
+.verify-content h1{
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.verify-content p{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
