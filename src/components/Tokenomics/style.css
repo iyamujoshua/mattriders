@@ -1,7 +1,15 @@
 .tokenomics-contents{
     text-align: center;
     color: white;
-    margin: 10rem 0;
+    margin: 15rem 0;
+}
+.Tokenomics{
+    position: relative;
+}
+.Tokenomics img{
+    position: absolute;
+     bottom: -150%;
+    right: 0;
 }
 .tokenomics-contents h1{
     margin-bottom: 20px;

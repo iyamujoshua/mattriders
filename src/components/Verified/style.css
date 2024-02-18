@@ -1,5 +1,10 @@
 .Big-container{
-    margin-bottom: 150px;
+    margin: 15rem 0;
+    position: relative;
+}
+.img4{
+    position: absolute;
+    bottom: -100%;
 }
 .verify-parent{
 display: flex;

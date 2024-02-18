@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css"
-
+import img1 from '../../assets/circleblur4.png'
 export default function Tokenomics() {
   return (
-    <div id="Tokenomics">
+    <div id="Tokenomics" className="Tokenomics">
+      <img src={img1} alt="" className=""/>
       <div className="tokenomics-contents">
         <h1>TOKENOMICS</h1>
         <p>

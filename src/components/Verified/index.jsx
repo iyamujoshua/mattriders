@@ -1,12 +1,14 @@
 import React from 'react'
 import img2 from "../../assets/sp.png"
 import img3 from "../../assets/cultcoin.png"
+import img4 from '../../assets/circleblur3.png'
 import "./style.css"
 
 export default function Verified() {
   return (
     <div>
       <div className="Big-container" id='Verified'>
+        <img src={img4} alt="" className='img4'/>
         <div className='verify-parent'>
             <div className='verify-logo'>
                 <img src={img2} alt=""/>
