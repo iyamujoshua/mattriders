@@ -5,6 +5,7 @@
 .img4{
     position: absolute;
     bottom: -100%;
+    left: 0;
 }
 .verify-parent{
 display: flex;
