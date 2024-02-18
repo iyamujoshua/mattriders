@@ -6,7 +6,7 @@ import "./style.css"
 export default function Verified() {
   return (
     <div>
-      <div className="Big-container">
+      <div className="Big-container" id='Verified'>
         <div className='verify-parent'>
             <div className='verify-logo'>
                 <img src={img2} alt=""/>
@@ -19,9 +19,9 @@ export default function Verified() {
             <p>Contract fully audited bu Coinsult and shown to be 100% secure <br />
 KYC passed by solidproof. Learn more in the whitepaper</p>
 
-<a href="#" className="Buy">
+     <button className="Buy">
               Whitepaper
-            </a>
+            </button>
         </div>
         </div>
     </div>

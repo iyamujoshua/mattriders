@@ -26,13 +26,20 @@ const Navbar = () => {
 
           <div className={`Navbar_link ${open && `open`}`} id="Nav_link">
             <ul id="navlink">
-              <NavLink to="/">
+            <Link
+                to="Social"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <a href="/" className="link">
                   Social Casino
                 </a>
-              </NavLink>
+                </Link>
               <Link
-                to="Why_Us"
+                to="Verified"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -42,7 +49,7 @@ const Navbar = () => {
                 <a className="link">How to Buy</a>
               </Link>
               <Link
-                to="Get_started"
+                to="Progressivebar"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -67,10 +74,7 @@ const Navbar = () => {
               </Link>
               {/* <NavLink to='/'><a  className='link'>CONTACT</a></NavLink>  */}
             </ul>
-            {/* <div className="nav_btn">
-              <button className="login">Login</button>
-              <button className="sign">Sign Up</button>
-            </div> */}
+         
           </div>
         </div>
         <div className="hambuger">

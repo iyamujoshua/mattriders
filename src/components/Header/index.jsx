@@ -1,28 +1,32 @@
 import React from "react";
 import img1 from "../../assets/img1.png";
 import circle2 from "../../assets/circle2.png"
+import circle3 from "../../assets/circle_blur.svg"
 import "./style.css";
 const Header = () => {
   return (
     <div>
       <div className="Header_flex">
-        <div className="Header_content">
-        <div className="circle-background">
+      <div className="circle-background">
           <img src={circle2} alt="" />
         </div>
+        <div className="circle-background1">
+          <img src={circle3} alt="" />
+        </div>
+        <div className="Header_content">
           <h1>The Future of Social</h1>
           <h1>Gaming is here!</h1>
           <p>Grab your $SLOT, presale is now live</p>
           <div className="two-btn">
             <div>
-            <a href="#" className="Buy">
+            <button className="Buy">
               Buy $SLOT
-            </a>
+            </button>
             </div>
             <div>
-            <a href="#" className="whitepaper">
+            <button className="whitepaper">
               WhitePaper
-            </a>
+            </button>
             </div>
           </div>
         </div>

@@ -40,9 +40,14 @@ margin-bottom: 20px;
     font-weight: 500;
     color: black;
     border-radius: 8px;
+    height: 61px;
 }
 
 @media screen  and (max-width:820px){
+    .Big-container{
+        /* margin-bottom: 150px; */
+        margin: 0 2rem;
+    }
     .verify-logo img{
         height: 90px;
         width: 90px;

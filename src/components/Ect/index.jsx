@@ -12,7 +12,7 @@ export default function Ect() {
           ETH TOKEN
           </p>
         </div>
-        <div className="Features_container2">
+        <div className="Features_container1">
           <h3>
           250M
           </h3>
@@ -21,7 +21,7 @@ export default function Ect() {
           </p>
         </div>
 
-        <div className="Features_container3">
+        <div className="Features_container1">
           <h3>
           250M
           </h3>

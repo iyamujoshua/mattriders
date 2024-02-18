@@ -1,0 +1,111 @@
+.Progressivebar_content_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    gap: 10px;
+}
+.Progressivebar_content_text h2{
+    color: white;
+    font-size: 18px;
+
+    font-weight: 500;
+}
+.Progressivebar_content_text h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.progressive_bar{
+    background-color: #09020F;
+    height: 13px;
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+}
+.progressive_bar::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    background-color: #C5446E;
+    border-radius: 50px;
+    height: 13px;
+    width: 100px;
+}
+
+.progressive_bar2{
+    background-color: #09020F;
+    height: 13px;
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+}
+.progressive_bar2::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    background-color: #C5446E;
+    border-radius: 50px;
+    height: 13px;
+    width: 30px;
+}
+.progressive_bar3{
+    background-color: #09020F;
+    height: 13px;
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+}
+.progressive_bar3::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    background-color: #C5446E;
+    border-radius: 50px;
+    height: 13px;
+    width: 70px;
+}
+
+.progressive_bar4{
+    background-color: #09020F;
+    height: 13px;
+    width: 100%;
+    border-radius: 50px;
+    position: relative;
+}
+.progressive_bar4::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    background-color: #C5446E;
+    border-radius: 50px;
+    height: 13px;
+    width: 50px;
+}
+.Progressivebar_content{
+    width: 25%;
+}
+.Progressivebar_flex{
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 5rem 0;
+}
+@media screen  and (max-width:820px){
+    .Progressivebar_flex{
+   
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 5rem 0;
+        flex-direction: column;
+    }
+    .Progressivebar_content{
+        width: 100%;
+    }
+.Progressivebar_space{
+    margin: 0 2rem;
+}
+}

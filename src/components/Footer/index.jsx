@@ -7,7 +7,7 @@ import medium from "../../assets/medium.png"
 
 export default function Footer() {
   return (
-    <div className="Footer">
+    <div className="Footer" id="Social">
       <div className="Footer_flex">
 <h1> Join our Communities</h1>
 

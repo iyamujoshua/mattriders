@@ -1,7 +1,7 @@
 
 .Navbar{
     background-color: #140820;
-    padding: 2rem 10rem;
+    padding: 2rem 5rem;
     /* width: 100%; */
     
     
@@ -29,7 +29,7 @@
 .Navbar_link{
     display: flex;
     justify-content: space-between;
-    width: 59%;
+    /* width: 0%; */
     /* background-color: #000; */
 }
 

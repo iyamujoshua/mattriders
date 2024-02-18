@@ -1,7 +1,7 @@
 .presale_header{
     color: white;
     text-align: center;
-    margin-bottom: 100px;
+    margin: 15rem 0;
 }
 
 .presale_header h1{
@@ -12,6 +12,13 @@ font-size: 40px;
 .presale_header p{
     padding-bottom: 20px;
     font-size: 16px;
+}
+.presale_header .presale_header_p2{
+    padding-bottom: 20px;
+    font-size: 16px;
+    width: 500px;
+    margin: 1rem auto;
+
 }
 
 .presale_header h2{
