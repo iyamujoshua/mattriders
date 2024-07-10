@@ -5,7 +5,7 @@ import img2 from '../../assets/frogeye.jpeg'
 
 export default function Equity() {
   return (
-    <div className="Equity">
+    <div className="Equity" data-aos="zoom-in">
       <img src={img2} alt="" />
     <div className="Get_started_content">
       {/* <h1>$1.2M RAISED IN EQUITY</h1> */}

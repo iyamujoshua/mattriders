@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from 'react-router-dom';
 import { Link } from "react-scroll";
 import "./style.css"
-import logo from "../../assets/mylogo.png"
+import logo from "../../assets/frogeye.jpeg"
 const Navbar = () => {
   const [open, setopen] = useState(false);
 
@@ -20,14 +20,14 @@ const Navbar = () => {
         <div className="Navbar_flex">
           <div className="logo">
             <NavLink to="/" onClick={reload}>
-              {/* <img src={logo} alt="" /> */}
+              <img src={logo} alt="" />
             </NavLink>
           </div>
 
           <div className={`Navbar_link ${open && `open`}`} id="Nav_link">
             <ul id="navlink">
             <Link
-                to="Social"
+                to="Matt_header"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </a>
                 </Link>
               <Link
-                to="Verified"
+                to="MATTBUY"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <a className="link">How to Buy</a>
               </Link>
               <Link
-                to="Progressivebar"
+                to=""
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </a>
               </Link>
               <Link
-                to="Tokenomics"
+                to="Story"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -69,7 +69,7 @@ const Navbar = () => {
                 duration={500}
               >
                 <a href="/" className="link">
-                Collections
+                Story
                 </a>
               </Link>
               {/* <NavLink to='/'><a  className='link'>CONTACT</a></NavLink>  */}

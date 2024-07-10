@@ -12,10 +12,10 @@ import story10 from "../../assets/story10.jpeg"
 import story11 from "../../assets/story11.jpeg"
 import "./style.css"
 import Marquee from 'react-fast-marquee'
-function Gallery() {
+function Gallery2() {
   return (
     <div className='gala' id='Story'>
-      <marquee speed={400} direction="right">
+      <marquee speed={400} direction="left">
         <img src={story1} alt="" />
         <img src={story2} alt="" />
         <img src={story3} alt="" />
@@ -32,4 +32,4 @@ function Gallery() {
   )
 }
 
-export default Gallery
+export default Gallery2

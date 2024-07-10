@@ -1,11 +1,16 @@
 import React from "react";
+import { useEffect } from "react";
 import img1 from "../../assets/rat1.png";
 import circle2 from "../../assets/circle2.png"
 import circle3 from "../../assets/circle_blur.svg"
+import Aos from "aos";
 import "./style.css";
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2100 });
+  }, []);
   return (
-    <div>
+    <div data-aos="zoom-in" id="Matt_header">
       <div className="Header_flex">
       <div className="circle-background">
           <img src={circle2} alt="" />
@@ -19,14 +24,11 @@ const Header = () => {
           <p>Lorem ipsum dolor sit amet consectetur.</p>
           <div className="two-btn">
             <div>
-            <button className="Buy">
+            <a href="#" className="Buy">
               Buy $MATTRIDER
-            </button>
+            </a>
             </div>
             <div>
-            <button className="whitepaper">
-              Chart
-            </button>
             </div>
           </div>
         </div>

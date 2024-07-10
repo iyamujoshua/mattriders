@@ -30,7 +30,7 @@ padding: 13px 13px;
 @media screen  and (max-width:820px){
     .Footer{
         display: block;
-        background-color: #FC6392;
+        /* background-color: #FC6392; */
         margin-top: 150px;
        
     }

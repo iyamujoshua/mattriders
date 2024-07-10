@@ -8,6 +8,7 @@ import Ect from '../Ect'
 import Progressivebar from '../Progressivebar'
 import Footer from '../Footer'
 import Gallery from '../Gallery'
+import Gallery2 from '../Gallery2'
 const Body = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Body = () => {
         {/* <Ect/> */}
         {/* <Progressivebar/> */}
         <Gallery />
+        <Gallery2/>
         <Footer></Footer>
     </div>
   )
