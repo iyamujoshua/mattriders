@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="Navbar_flex">
           <div className="logo">
             <NavLink to="/" onClick={reload}>
-              <img src={logo} alt="" />
+              {/* <img src={logo} alt="" /> */}
             </NavLink>
           </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                 duration={500}
               >
                 <a href="/" className="link">
-                  Social Casino
+                  Matt-Riders
                 </a>
                 </Link>
               <Link
@@ -57,7 +57,7 @@ const Navbar = () => {
                 duration={500}
               >
                 <a href="/" className="link">
-                  Roadmap
+                  Chart
                 </a>
               </Link>
               <Link
@@ -69,7 +69,7 @@ const Navbar = () => {
                 duration={500}
               >
                 <a href="/" className="link">
-                Tokenomics
+                Collections
                 </a>
               </Link>
               {/* <NavLink to='/'><a  className='link'>CONTACT</a></NavLink>  */}

@@ -1,0 +1,13 @@
+/* style.css */
+.gala{
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .gala img {
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../assets/img1.png";
+import img1 from "../../assets/rat1.png";
 import circle2 from "../../assets/circle2.png"
 import circle3 from "../../assets/circle_blur.svg"
 import "./style.css";
@@ -14,18 +14,18 @@ const Header = () => {
           <img src={circle3} alt="" />
         </div>
         <div className="Header_content">
-          <h1>The Future of Social</h1>
-          <h1>Gaming is here!</h1>
-          <p>Grab your $SLOT, presale is now live</p>
+          <h1>Lorem ipsum dolor </h1>
+          <h1>Lorem, ipsum dolor.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
           <div className="two-btn">
             <div>
             <button className="Buy">
-              Buy $SLOT
+              Buy $MATTRIDER
             </button>
             </div>
             <div>
             <button className="whitepaper">
-              WhitePaper
+              Chart
             </button>
             </div>
           </div>

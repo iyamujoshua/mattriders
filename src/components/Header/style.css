@@ -49,11 +49,10 @@
     padding: 0;
     color: white;
 }
-
-.Buy{
-    background:  linear-gradient(to right, #F28498, #C03D69);;
+.Header_content button{
+    background: #d1d91b;
     padding: 15px 35px;
-    border: 2px solid #F28498;
+    border: 2px solid #d1d91b;
     font-size: 18px;
     font-weight: 500;
     height: 61px;
@@ -116,11 +115,11 @@
         font-size: 18px;
     }
     .Header_content button{
-        background:  linear-gradient(to right, #F28498, #C03D69);;
-        border: 2px solid #F28498;
+        background:  linear-gradient(to right, #d1d91b, #d1d91b);;
+        border: 2px solid #d1d91b;
         width: 200px;
         height: 50px;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 500;
         color: black;
         border-radius: 5px;
